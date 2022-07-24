@@ -1,4 +1,4 @@
-# This is a Landing page for a restaurant website
+# This is a Landing page for a restaurant
 
 Made by **Aditya Kadali**
 
