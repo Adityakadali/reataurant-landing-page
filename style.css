@@ -20,7 +20,12 @@ body {
   background-size: cover;
   height: 100vh;
 }
-
+.container {
+  width: 90%;
+  max-width: 1024px;
+  margin: auto;
+  position: relative;
+}
 /* ------------------------------ */
 /* ---------- NAVBAR ------------ */
 /* ------------------------------ */
@@ -39,10 +44,11 @@ nav li {
   display: inline-block;
   text-decoration: none;
   color: #ffc233;
-  font-weight: 1.2em;
+  font-size: 1.3em;
   line-height: 1.5em;
   font-weight: 600;
   margin: 0 20px;
+  cursor: pointer;
 }
 
 /* ------------------------------ */
@@ -60,7 +66,7 @@ nav li {
 
 .hero-heading {
   color: #ffc233;
-  font-family: 'Dela Gothic One', cursive;
+  font-family: "Dela Gothic One", cursive;
   font-size: 5em;
   text-align: center;
   margin-bottom: 20px;
@@ -72,6 +78,11 @@ button {
   background-color: #ff505f;
   font-size: 1.2em;
   border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #d5424e;
 }
 
 .button-large {
@@ -82,7 +93,7 @@ button {
 
 [alt="bottom-logo"] {
   position: fixed;
-  width: 130px;
+  width: 100px;
   bottom: 40px;
   right: 40px;
 }
